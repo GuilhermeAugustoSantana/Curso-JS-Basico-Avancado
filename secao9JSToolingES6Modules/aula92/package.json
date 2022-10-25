@@ -1,0 +1,26 @@
+{
+  "name": "curso-js-basico-avancado",
+  "version": "1.0.0",
+  "description": "Javascript moderno (ES6+) para front-end (com Webpack, babel, React, React Hooks, Redux, HTML5, CSS3 e mais) e back-end (com Node, Express, MySQL / MariaDB, MongoDB, PostgreSQL, Next.Js, Strapi e mais) e se torne um(a) desenvolvedor(a) full stack.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "babel": "babel secao9JSToolingES6Modules/aula92/main.js -o secao9JSToolingES6Modules/aula92/bundle.js --presets=@babel/env -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuilhermeAugustoSantana/Curso-JS-Basico-Avancado.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GuilhermeAugustoSantana/Curso-JS-Basico-Avancado/issues"
+  },
+  "homepage": "https://github.com/GuilhermeAugustoSantana/Curso-JS-Basico-Avancado#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.19.3",
+    "@babel/preset-env": "^7.19.3"
+  }
+}
